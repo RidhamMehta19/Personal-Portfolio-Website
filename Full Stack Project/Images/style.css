@@ -47,7 +47,7 @@
   }
   
   .section{
-    padding:100px 0;
+    padding:100px 24px;
     overflow:hidden;
     position:relative;
     z-index:2;
@@ -295,15 +295,17 @@
     .hero-grid{grid-template-columns:1fr;}
     .metrics{grid-template-columns:repeat(2,1fr);}
     .card-grid{grid-template-columns:1fr;}
+    .section{padding:80px 24px;}
+    .hero{padding:120px 24px;}
   }
   
   @media(max-width:768px){
     h1{font-size:32px;line-height:1.2;}
     h2{font-size:24px;}
     
-    .section{padding:60px 0;}
+    .section{padding:60px 20px;}
     
-    .hero{padding:60px 0;}
+    .hero{padding:60px 20px;}
     
     .hero-grid{
       gap:40px;
@@ -415,9 +417,9 @@
     
     .container{padding:0 20px;}
     
-    .section{padding:40px 0;}
+    .section{padding:40px 16px;}
     
-    .hero{padding:40px 0;}
+    .hero{padding:40px 16px;}
     
     .hero-sub{
       font-size:14px;
